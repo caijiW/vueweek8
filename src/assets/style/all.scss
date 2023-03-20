@@ -1,0 +1,18 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap');
+
+@import "bootstrap/scss/functions";
+
+@import "./variables";
+
+@import "bootstrap/scss/maps";
+@import "./utilities";// 自定義 utilities， Bootstrap 5.2 須匯入上面的 maps
+
+
+
+
+@import "bootstrap/scss/bootstrap.scss";
+@import 'bootstrap-icons/font/bootstrap-icons.css';  //引入icon
+@import "./utilities2";
+
+@import "./base";
